@@ -1,0 +1,128 @@
+{
+  "title": "Choose the visual world — Intention Massage Academy",
+  "question": "The roll assigned The Assessment Form. Keep it, take an alternate, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Assessment Form",
+      "kicker": "THE ROLL",
+      "lineage": "the clinical intake sheet and front/back body chart every therapist fills in before touching anyone",
+      "thesis": "The academy page is the assessment form: you choose a course by marking where on the body it lives.",
+      "palette": ["#ffffff", "#0e5a43", "#f5dc4a", "#f2a9b8", "#d42a1f", "#1d2f9e"],
+      "materials": ["carbonless NCR duplicate paper (white, canary, pink copies)", "form ink printed in one deep green", "red and blue ballpoint marks"],
+      "viewport": "A giant front/back body chart printed on the form. The five one-day CPD courses are red ballpoint marks on the shoulder, pelvis, head, low back and knee. Tap one and the form's 'treatment plan' field fills with that course, its £250 fee and a WhatsApp booking button.",
+      "risk": "If the hand-drawn marks get timid or cute, it reads like a clinic leaflet rather than a masterclass.",
+      "raised": [
+        {"from": "challenger-split-flap", "raise": "The course list is a strictly ruled form table (course · region · days · fee · book) whose columns never move."},
+        {"from": "challenger-creator-hardware", "raise": "Red ballpoint is reserved for one job only: marking a course and booking it."},
+        {"from": "challenger-ink-basin", "raise": "Touching the chart has consequence: the pen hatches the region you press, live."},
+        {"from": "challenger-kaiju", "raise": "The page runs in the form's fixed section order (A. Practitioner, B. Courses, C. Workshop, D. Booking), so the order itself is the navigation."}
+      ],
+      "html": ".impeccable/mocks/decision/assigned.html",
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "kicker": "IMPECCABLE’S PICK",
+      "label": "Fascial Line Map",
+      "lineage": "the myofascial meridian charts (continuous coloured lines from foot to skull) taught in Rolfing and structural integration",
+      "thesis": "Every course is a coloured line on a transit-style map of the body's fascial chains.",
+      "palette": ["#f4f4f1", "#14161a", "#e2402b", "#1d6fd1", "#f2b51c", "#2c9a5a"],
+      "materials": ["transit-map lines with rounded joints", "white field", "station dots as course stops"],
+      "viewport": "A full-height figure whose fascial lines run as coloured transit lines. Each CPD course is a station on its line, and the Deep Tissue two-day course is the interchange.",
+      "risk": "It's beautiful but abstract. Therapists without structural-integration training may read it as decoration rather than as a course list.",
+      "html": ".impeccable/mocks/decision/model-pick.html",
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-ink-basin",
+      "label": "Suminagashi Basin",
+      "verdict": "declined",
+      "lineage": "marbled ink on water",
+      "thesis": "The page as a basin of ink that your fingertip moves.",
+      "palette": ["#f7f7f4", "#1f2a5c", "#2b2b2b"],
+      "materials": ["sumi ink", "water"],
+      "viewport": "A WebGL ink basin with the course list held in the margin.",
+      "case": "Fuses poorly: therapists don't recognise themselves in marbling, and the course offer disappears into the effect.",
+      "risk": "Mood over offer.",
+      "kept": "Touch with real physical consequence. The chart hatches where you press."
+    },
+    {
+      "id": "challenger-split-flap",
+      "label": "Split-Flap Concourse",
+      "verdict": "declined",
+      "lineage": "rail departure boards",
+      "thesis": "Courses as departures on a flap board.",
+      "palette": ["#111111", "#ffffff", "#f2a900"],
+      "materials": ["flap faces", "brushed steel"],
+      "viewport": "A departure board of CPD courses.",
+      "case": "Fuses poorly: there are no published dates, so a timetable would be invented data.",
+      "risk": "It needs a schedule that doesn't exist.",
+      "kept": "Strict ruled rows and columns that never move."
+    },
+    {
+      "id": "challenger-creator-hardware",
+      "label": "Creator Hardware Bench",
+      "verdict": "declined",
+      "lineage": "keycap desk instruments",
+      "thesis": "Courses as keys on a gunmetal console.",
+      "palette": ["#d9d4c7", "#3a3d42", "#ff5a1f"],
+      "materials": ["keycaps", "knurled aluminium"],
+      "viewport": "A keycap grid of courses with one orange 'book' key.",
+      "case": "Fuses poorly: it's cold and gadget-like, the opposite of informed touch.",
+      "risk": "Wrong audience.",
+      "kept": "One colour reserved for the single action that matters."
+    },
+    {
+      "id": "challenger-kaiju",
+      "label": "Kaiju Broadcast Alert",
+      "verdict": "declined",
+      "lineage": "civil-defence broadcast cards",
+      "thesis": "The academy as an emergency broadcast.",
+      "palette": ["#8a8a8a", "#d71920", "#ffffff"],
+      "materials": ["newsreel grain", "hazard stripes"],
+      "viewport": "A title card cutting to a map with one arrow.",
+      "case": "Declined: alarm is the opposite of a calm, grounding teacher.",
+      "risk": "Tone failure.",
+      "kept": "A fixed broadcast order used as navigation."
+    },
+    {
+      "id": "challenger-accretion",
+      "label": "Accretion Disk",
+      "verdict": "declined",
+      "lineage": "black-hole renders",
+      "thesis": "Courses orbiting a horizon.",
+      "palette": ["#000000", "#e8f0ff", "#c8462a", "#e6b84a"],
+      "materials": ["shader light"],
+      "viewport": "A WebGL disk with orbiting labels.",
+      "case": "Declined: no link to bodywork or to therapists.",
+      "risk": "Unrelated spectacle.",
+      "kept": "Nothing structural. It gave no raise."
+    },
+    {
+      "id": "challenger-multiplane",
+      "label": "Multiplane Cel Dawn",
+      "verdict": "declined",
+      "lineage": "hand-painted animation planes",
+      "thesis": "Scroll as a camera sinking through painted layers.",
+      "palette": ["#2f4a2a", "#9fb1b8", "#3b2a1c", "#f2b04a"],
+      "materials": ["gouache cels"],
+      "viewport": "Parallax forest toward a lit cottage.",
+      "case": "Declined: it drifts toward spa-retreat mood and hides the clinical depth that therapists pay for.",
+      "risk": "Spa cliché by another road.",
+      "kept": "Its depth rhythm was already covered by the form's sections."
+    }
+  ],
+  "reroll": {"registers": ["safer", "bolder"]},
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "A calm wellness-academy site, executed impeccably.",
+    "palette": ["#f3efe8", "#6f7f6a", "#2b2b28", "#c9a27a"],
+    "materials": ["soft-focus treatment photography", "linen neutrals", "serif headings"],
+    "viewport": "A full-bleed photo of hands at work, a serif headline, 'View courses', and course cards below.",
+    "risk": "It looks like every spa and massage school in Brighton.",
+    "wireframe": {"cols":12,"rows":10,"regions":[{"label":"nav","x":0,"y":0,"w":12,"h":1},{"label":"hero photo + headline","x":0,"y":1,"w":12,"h":5,"accent":true},{"label":"course card","x":0,"y":6,"w":4,"h":4},{"label":"course card","x":4,"y":6,"w":4,"h":4},{"label":"course card","x":8,"y":6,"w":4,"h":4}]}
+  },
+  "steer": true
+}

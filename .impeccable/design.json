@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T21:05:58+00:00",
+  "title": "Design System: Intention Massage Academy",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Form Paper",
+        "canonical": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "oklch(15% 0.000 90)",
+          "oklch(26% 0.000 90)",
+          "oklch(38% 0.000 90)",
+          "oklch(49% 0.000 90)",
+          "oklch(61% 0.000 90)",
+          "oklch(72% 0.000 90)",
+          "oklch(84% 0.000 90)",
+          "oklch(95% 0.000 90)"
+        ]
+      },
+      "form-ink": {
+        "role": "primary",
+        "displayName": "Form Green",
+        "canonical": "oklch(41.8% 0.080 167)",
+        "tonalRamp": [
+          "oklch(15% 0.061 167)",
+          "oklch(26% 0.069 167)",
+          "oklch(38% 0.077 167)",
+          "oklch(49% 0.075 167)",
+          "oklch(61% 0.066 167)",
+          "oklch(72% 0.058 167)",
+          "oklch(84% 0.050 167)",
+          "oklch(95% 0.042 167)"
+        ]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Faded Ink",
+        "canonical": "oklch(53.3% 0.070 169)",
+        "tonalRamp": [
+          "oklch(15% 0.046 169)",
+          "oklch(26% 0.053 169)",
+          "oklch(38% 0.060 169)",
+          "oklch(49% 0.068 169)",
+          "oklch(61% 0.065 169)",
+          "oklch(72% 0.058 169)",
+          "oklch(84% 0.051 169)",
+          "oklch(95% 0.044 169)"
+        ]
+      },
+      "canary": {
+        "role": "neutral",
+        "displayName": "Canary Copy",
+        "canonical": "oklch(89.0% 0.161 99)",
+        "tonalRamp": [
+          "oklch(15% 0.054 99)",
+          "oklch(26% 0.070 99)",
+          "oklch(38% 0.087 99)",
+          "oklch(49% 0.103 99)",
+          "oklch(61% 0.120 99)",
+          "oklch(72% 0.136 99)",
+          "oklch(84% 0.153 99)",
+          "oklch(95% 0.152 99)"
+        ]
+      },
+      "canary-ink": {
+        "role": "neutral",
+        "displayName": "Canary Ink",
+        "canonical": "oklch(36.6% 0.069 167)",
+        "tonalRamp": [
+          "oklch(15% 0.056 167)",
+          "oklch(26% 0.063 167)",
+          "oklch(38% 0.068 167)",
+          "oklch(49% 0.061 167)",
+          "oklch(61% 0.054 167)",
+          "oklch(72% 0.047 167)",
+          "oklch(84% 0.040 167)",
+          "oklch(95% 0.033 167)"
+        ]
+      },
+      "pink": {
+        "role": "neutral",
+        "displayName": "Pink Copy",
+        "canonical": "oklch(84.6% 0.070 5)",
+        "tonalRamp": [
+          "oklch(15% 0.026 5)",
+          "oklch(26% 0.033 5)",
+          "oklch(38% 0.040 5)",
+          "oklch(49% 0.048 5)",
+          "oklch(61% 0.055 5)",
+          "oklch(72% 0.062 5)",
+          "oklch(84% 0.069 5)",
+          "oklch(95% 0.063 5)"
+        ]
+      },
+      "pink-ink": {
+        "role": "neutral",
+        "displayName": "Pink Ink",
+        "canonical": "oklch(34.6% 0.064 169)",
+        "tonalRamp": [
+          "oklch(15% 0.052 169)",
+          "oklch(26% 0.059 169)",
+          "oklch(38% 0.062 169)",
+          "oklch(49% 0.055 169)",
+          "oklch(61% 0.049 169)",
+          "oklch(72% 0.042 169)",
+          "oklch(84% 0.036 169)",
+          "oklch(95% 0.029 169)"
+        ]
+      },
+      "red-ballpoint": {
+        "role": "secondary",
+        "displayName": "Red Ballpoint",
+        "canonical": "oklch(56.5% 0.206 29)",
+        "tonalRamp": [
+          "oklch(15% 0.129 29)",
+          "oklch(26% 0.151 29)",
+          "oklch(38% 0.172 29)",
+          "oklch(49% 0.193 29)",
+          "oklch(61% 0.198 29)",
+          "oklch(72% 0.177 29)",
+          "oklch(84% 0.156 29)",
+          "oklch(95% 0.135 29)"
+        ]
+      },
+      "red-deep": {
+        "role": "secondary",
+        "displayName": "Pressed Red",
+        "canonical": "oklch(47.3% 0.175 29)",
+        "tonalRamp": [
+          "oklch(15% 0.124 29)",
+          "oklch(26% 0.142 29)",
+          "oklch(38% 0.160 29)",
+          "oklch(49% 0.172 29)",
+          "oklch(61% 0.154 29)",
+          "oklch(72% 0.136 29)",
+          "oklch(84% 0.118 29)",
+          "oklch(95% 0.100 29)"
+        ]
+      },
+      "blue-ballpoint": {
+        "role": "tertiary",
+        "displayName": "Blue Ballpoint",
+        "canonical": "oklch(37.7% 0.179 268)",
+        "tonalRamp": [
+          "oklch(15% 0.142 268)",
+          "oklch(26% 0.161 268)",
+          "oklch(38% 0.178 268)",
+          "oklch(49% 0.160 268)",
+          "oklch(61% 0.142 268)",
+          "oklch(72% 0.123 268)",
+          "oklch(84% 0.105 268)",
+          "oklch(95% 0.086 268)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Ruling",
+        "canonical": "rgba(14, 90, 67, .38)",
+        "tonalRamp": [
+          "oklch(15% 0.061 167)",
+          "oklch(26% 0.069 167)",
+          "oklch(38% 0.077 167)",
+          "oklch(49% 0.075 167)",
+          "oklch(61% 0.066 167)",
+          "oklch(72% 0.058 167)",
+          "oklch(84% 0.050 167)",
+          "oklch(95% 0.042 167)"
+        ],
+        "note": "Form green at 38% alpha; re-tinted per copy sheet (canary rgba(11,74,55,.42), pink rgba(10,68,52,.4))."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline only."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Sheet titles, led by the boxed section letter."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "The WhatsApp number on the booking sheet."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Large printed field values and register course names."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Reading text, 46-54ch."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, table headers, term keys, figure and photo captions."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Red ballpoint booking button."
+      },
+      "pen-entry": {
+        "displayName": "Pen Entry",
+        "purpose": "Handwritten blue field entries."
+      },
+      "pen-statement": {
+        "displayName": "Pen Statement",
+        "purpose": "Quoted voice written onto the form: teaching statement, closing line."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "ease-pen",
+        "value": "cubic-bezier(.16, 1, .3, 1)",
+        "purpose": "The single easing for pen strokes and colour state changes."
+      },
+      {
+        "name": "pen-ring",
+        "value": "stroke-dashoffset 1 to 0, 0.8s, staggered 170ms from 280ms",
+        "purpose": "On arrival the pen circles each chart mark once."
+      },
+      {
+        "name": "pen-hatch",
+        "value": "stroke-dashoffset 1 to 0, 0.5s, delays 0 / .06s / .12s",
+        "purpose": "Hatching drawn over a selected chart region."
+      },
+      {
+        "name": "pen-write",
+        "value": "clip-path inset reveal left to right, 0.7s, fields staggered 140/240/320ms",
+        "purpose": "Handwriting an entry into a treatment-plan field."
+      },
+      {
+        "name": "state-colour",
+        "value": "background-color / fill / stroke-width, 0.2-0.35s",
+        "purpose": "Hover and selection feedback; colour and weight only, never position or opacity."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none; transition: none",
+        "purpose": "All motion removed under prefers-reduced-motion; entries appear instantly."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1180px"
+      },
+      {
+        "name": "tablet",
+        "value": "980px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Red Ballpoint Button",
+      "kind": "button",
+      "refersTo": "button-pen",
+      "description": "The booking action: flat red fill, white condensed bold, WhatsApp glyph, no shadow.",
+      "html": "<a class=\"ds-pen-btn\" href=\"#\"><svg class=\"ds-wa\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 2.2a9.7 9.7 0 0 0-8.4 14.6L2.3 21.7l5-1.3A9.7 9.7 0 1 0 12 2.2Zm0 17.7c-1.5 0-3-.4-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 1 1 12 19.9Z\"/></svg><span>Book on WhatsApp</span></a>",
+      "css": ".ds-pen-btn { display: inline-flex; align-items: center; gap: 12px; background: var(--red, #d42a1f); color: #fff; text-decoration: none; font-family: Archivo, 'Arial Narrow', sans-serif; font-weight: 700; font-stretch: 85%; font-size: 18px; letter-spacing: .01em; padding: 16px 24px 16px 20px; border-radius: 3px; transition: background-color .25s cubic-bezier(.16,1,.3,1); } .ds-pen-btn:hover { background: var(--red-deep, #a81d14); } .ds-pen-btn:active { background: #7d140d; } .ds-pen-btn:focus-visible { outline: 2.5px solid var(--blue, #1d2f9e); outline-offset: 3px; } .ds-wa { width: 22px; height: 22px; fill: currentColor; flex: none; }"
+    },
+    {
+      "name": "Pen Link",
+      "kind": "button",
+      "refersTo": "button-pen",
+      "description": "Handwritten red 'Book' link with a drawn arrow; underline drawn in on hover.",
+      "html": "<a class=\"ds-pen-link\" href=\"#\">Book</a>",
+      "css": ".ds-pen-link { display: inline-block; font-family: 'Nanum Pen', 'Bradley Hand', cursive; font-size: 30px; line-height: 1; color: var(--red, #d42a1f); text-decoration: none; padding: 4px 6px 6px; background: linear-gradient(var(--red, #d42a1f), var(--red, #d42a1f)) 6px calc(100% - 6px) / 0 2px no-repeat; transition: background-size .35s cubic-bezier(.16,1,.3,1); } .ds-pen-link::after { content: ''; display: inline-block; width: 26px; height: 14px; margin-left: 6px; background: currentColor; -webkit-mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 14'%3E%3Cpath d='M1.5 7.6c6.5-.9 13.4-.6 21.6-.3M17.2 2.2c2 1.9 4 3.6 6.6 5-2.7 1.3-4.6 3-6.3 5' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E\") center / contain no-repeat; mask: url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 14'%3E%3Cpath d='M1.5 7.6c6.5-.9 13.4-.6 21.6-.3M17.2 2.2c2 1.9 4 3.6 6.6 5-2.7 1.3-4.6 3-6.3 5' fill='none' stroke='%23000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E\") center / contain no-repeat; } .ds-pen-link:hover { background-size: calc(100% - 12px) 2px; } .ds-pen-link:focus-visible { outline: 2.5px solid var(--blue, #1d2f9e); outline-offset: 3px; }"
+    },
+    {
+      "name": "Ruled Field",
+      "kind": "input",
+      "refersTo": "field-entry",
+      "description": "Printed uppercase condensed label over a hairline rule, with a blue handwritten entry.",
+      "html": "<div class=\"ds-field\"><span class=\"ds-flabel\">Course</span><span class=\"ds-pen\">Low Back Pain Solutions</span></div>",
+      "css": ".ds-field { border-bottom: 1.5px solid var(--rule, rgba(14,90,67,.38)); padding: 9px 0 7px; max-width: 360px; } .ds-flabel { display: block; font-family: Archivo, 'Arial Narrow', sans-serif; font-size: 12px; font-weight: 650; font-stretch: 78%; letter-spacing: .07em; text-transform: uppercase; color: var(--ink, #0e5a43); line-height: 1.2; } .ds-pen { display: block; font-family: 'Nanum Pen', 'Bradley Hand', cursive; color: var(--blue, #1d2f9e); font-size: 31px; line-height: 1.05; margin-top: 2px; }"
+    },
+    {
+      "name": "Masthead Nav",
+      "kind": "nav",
+      "refersTo": "section-letter",
+      "description": "Form header strip nav: ruled cells, each led by an outlined section letter that fills with ink on hover.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\"><b>A</b>Courses</a><a href=\"#\"><b>B</b>Practitioner</a><a href=\"#\"><b>C</b>Couples</a><a href=\"#\"><b>D</b>Booking</a></nav>",
+      "css": ".ds-nav { display: flex; border-bottom: 3px solid var(--ink, #0e5a43); padding: 8px 0; background: var(--paper, #fff); } .ds-nav a { display: flex; align-items: center; gap: 8px; padding: 8px 14px; text-decoration: none; color: var(--ink, #0e5a43); font-family: Archivo, 'Arial Narrow', sans-serif; font-size: 14px; font-weight: 600; font-stretch: 85%; text-transform: uppercase; letter-spacing: .05em; border-left: 1.5px solid var(--rule, rgba(14,90,67,.38)); } .ds-nav a:last-child { border-right: 1.5px solid var(--rule, rgba(14,90,67,.38)); } .ds-nav b { display: grid; place-items: center; width: 22px; height: 22px; border: 1.5px solid var(--ink, #0e5a43); font-size: 13px; transition: background-color .2s, color .2s; } .ds-nav a:hover b { background: var(--ink, #0e5a43); color: var(--paper, #fff); } .ds-nav a:focus-visible { outline: 2.5px solid var(--blue, #1d2f9e); outline-offset: 3px; }"
+    },
+    {
+      "name": "Ruled Box",
+      "kind": "card",
+      "refersTo": "box-header",
+      "description": "2px ink outline with a solid ink header band; square corners, no shadow.",
+      "html": "<div class=\"ds-box\"><p class=\"ds-box-title\">Treatment plan</p><div class=\"ds-box-row\"><span>Fee</span><em>£250</em></div></div>",
+      "css": ".ds-box { border: 2px solid var(--ink, #0e5a43); padding: 0 18px 20px; max-width: 360px; color: var(--ink, #0e5a43); font-family: Archivo, 'Arial Narrow', sans-serif; } .ds-box-title { margin: 0 -18px 4px; padding: 8px 18px; background: var(--ink, #0e5a43); color: var(--paper, #fff); font-size: 13px; font-weight: 700; font-stretch: 80%; letter-spacing: .1em; text-transform: uppercase; } .ds-box-row { border-bottom: 1.5px solid var(--rule, rgba(14,90,67,.38)); padding: 9px 0 7px; } .ds-box-row span { display: block; font-size: 12px; font-weight: 650; font-stretch: 78%; letter-spacing: .07em; text-transform: uppercase; } .ds-box-row em { font-style: normal; font-family: 'Nanum Pen', 'Bradley Hand', cursive; color: var(--blue, #1d2f9e); font-size: 31px; }"
+    },
+    {
+      "name": "Sheet Title",
+      "kind": "custom",
+      "refersTo": "section-letter",
+      "description": "Very condensed uppercase headline led by its boxed section letter.",
+      "html": "<h2 class=\"ds-h2\"><span class=\"ds-sec\">A</span>Course register</h2>",
+      "css": ".ds-h2 { margin: 0; color: var(--ink, #0e5a43); font-family: Archivo, 'Arial Narrow', sans-serif; font-weight: 800; font-stretch: 66%; font-size: 56px; line-height: .95; letter-spacing: -.01em; text-transform: uppercase; } .ds-sec { display: inline-grid; place-items: center; width: 1.05em; height: 1.05em; margin-right: .32em; border: 2px solid currentColor; font-size: .78em; font-stretch: 100%; vertical-align: .08em; line-height: 1; }"
+    },
+    {
+      "name": "Register Row",
+      "kind": "custom",
+      "refersTo": "register-box",
+      "description": "Strictly ruled canary course row: number box, condensed course name, fee, red pen Book; selected box fills red.",
+      "html": "<table class=\"ds-reg\"><tr><td><span class=\"ds-rbox\">3</span></td><th>Low Back Pain Solutions</th><td class=\"ds-fee\">£250</td></tr><tr class=\"on\"><td><span class=\"ds-rbox\">4</span></td><th>Pelvic &amp; Sciatica Release</th><td class=\"ds-fee\">£250</td></tr></table>",
+      "css": ".ds-reg { border-collapse: collapse; background: var(--canary, #f5dc4a); color: var(--canary-ink, #0b4a37); font-family: Archivo, 'Arial Narrow', sans-serif; font-stretch: 90%; } .ds-reg td, .ds-reg th { text-align: left; padding: 14px 12px; border-bottom: 1.5px solid rgba(11,74,55,.42); } .ds-reg th { font-size: 24px; font-weight: 750; font-stretch: 72%; text-transform: uppercase; line-height: 1.05; } .ds-fee { font-size: 22px; font-weight: 700; font-variant-numeric: tabular-nums lining-nums; } .ds-rbox { display: grid; place-items: center; width: 28px; height: 28px; border: 1.5px solid var(--canary-ink, #0b4a37); font-weight: 800; font-size: 14px; } .ds-reg tr { transition: background-color .3s cubic-bezier(.16,1,.3,1); } .ds-reg tr:hover { background: rgba(255,255,255,.28); } .ds-reg tr.on .ds-rbox { background: var(--red, #d42a1f); border-color: var(--red, #d42a1f); color: #fff; }"
+    },
+    {
+      "name": "Perforation",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "34px tear strip between sheets: punched dots of the next paper every 22px over a dashed hairline.",
+      "html": "<div class=\"ds-perf\"></div>",
+      "css": ".ds-perf { position: relative; height: 34px; background: var(--canary, #f5dc4a) radial-gradient(circle at 7px 50%, var(--paper, #fff) 0 3.2px, transparent 3.6px) 0 0 / 22px 34px repeat-x; } .ds-perf::before { content: ''; position: absolute; left: 0; right: 0; top: 50%; border-top: 1.5px dashed rgba(11,74,55,.42); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Assessment Form",
+    "overview": "The site is a clinical assessment form printed on carbonless paper. Everything printed on the form is set in one deep form-green ink on white, in a condensed grotesk: ruled fields, boxed numbers, section letters, a body chart. Everything the visitor or the teacher \"writes\" arrives in ballpoint. Blue ballpoint fills entries, and red ballpoint marks courses and books them. The duplicate copies of the form, canary and pink, appear as whole sheets rather than as accents. Each sheet is torn from the next along a perforation.\n\nDensity is that of a working document. Labels are small, uppercase and condensed. Values sit on hairline rules. Headlines are very condensed, uppercase and set tight, the way a form title is set in its header strip. Nothing floats, glows or lifts off the page. The paper is flat, and depth comes from ink weight, ruled boxes and changes of copy colour.\n\nMotion belongs to the pen and nothing else. Rings are drawn around chart marks, hatching is laid down over a selected region, and entries are written into fields by a left-to-right reveal. Nothing fades in, slides up or floats.",
+    "keyCharacteristics": [
+      "One printed ink (form green) on white, canary or pink copy paper.",
+      "Two ballpoints with fixed jobs: blue enters, red marks and books.",
+      "Very condensed, uppercase, tightly set headings (Archivo at 62–70% width). Labels are small, uppercase and spaced.",
+      "Handwriting (Nanum Pen) only for things written onto the form.",
+      "Perforated dividers between sheets. Boxed section letters A–D double as navigation.",
+      "Flat paper with square corners. No shadows anywhere."
+    ],
+    "rules": [
+      {
+        "name": "The Two Ballpoints Rule",
+        "body": "Blue is for anything entered and red is for anything marked or booked. Neither appears in printed form furniture, and red never decorates.",
+        "section": "colors"
+      },
+      {
+        "name": "The Whole Copy Rule",
+        "body": "Canary and pink are papers, not accents. They fill an entire sheet edge to edge, or show as a thin copy edge. They never appear as a tint, a badge or a highlight chip. The one exception is the text selection colour, which is canary.",
+        "section": "colors"
+      },
+      {
+        "name": "The One Ink Rule",
+        "body": "Each sheet prints in a single green ink (form green on white, canary ink on canary, pink ink on pink). Hierarchy comes from weight, width and size, never from a second printed hue.",
+        "section": "colors"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Hierarchy in printed type is carried by width and weight on one family. Do not introduce a second printed typeface.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only The Pen Writes Rule",
+        "body": "Handwriting appears only for content entered onto the form, in blue or red ballpoint. Printed headings, labels and navigation are never handwritten.",
+        "section": "typography"
+      },
+      {
+        "name": "The Numerals Rule",
+        "body": "Fees and other numbers use tabular lining numerals.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Carbon Rule",
+        "body": "Nothing lifts. Hover and selection change ink or fill colour (red box fill, a thicker ring, a deeper button red), never elevation, blur or offset.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** print everything on a sheet in its single green ink, and give each copy sheet its own darker ink plus a re-tinted rule and faded-ink value.",
+      "**Do** keep red ballpoint for chart marks, selected states and booking, and blue ballpoint for entries, ticks and the focus ring.",
+      "**Do** set field labels at 12px, weight 650, 0.07em tracking, uppercase, wdth 78, above a 1.5px ruling hairline.",
+      "**Do** lead every sheet title with its boxed section letter, in the fixed order A–D that the masthead nav uses.",
+      "**Do** separate sheets with the perforation strip, not with spacing alone or a plain border.",
+      "**Do** animate only pen strokes (stroke-dashoffset, clip-path writing) on cubic-bezier(.16, 1, .3, 1), and drop all motion under reduced-motion."
+    ],
+    "donts": [
+      "**Don't** add shadows, blur or lift to any element, including the red booking button.",
+      "**Don't** fade, slide or float content in. Only pen strokes and colour state changes move.",
+      "**Don't** use canary or pink as small tints, chips or highlights. They are whole copy papers.",
+      "**Don't** set printed headings, labels or navigation in the handwriting face.",
+      "**Don't** round boxes, fields or number squares. Only the booking button carries its 3px corner.",
+      "**Don't** introduce a second printed hue or a second printed typeface."
+    ]
+  }
+}

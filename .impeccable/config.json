@@ -1,0 +1,44 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "oversized-h1",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-15T20:55:31.997Z",
+        "reason": "Claude decided: unchosen decision-round thumbnail sketch, never shipped"
+      },
+      {
+        "rule": "overused-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-15T20:55:32.005Z",
+        "reason": "Claude decided: unchosen decision-round thumbnail sketch, never shipped"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/assigned.html"
+        ],
+        "createdAt": "2026-10-15T21:06:27.107Z",
+        "reason": "Claude decided: throwaway decision-round thumbnail sketch, not shipped"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "*",
+        "files": [
+          ".impeccable/mocks/decision/model-pick.html"
+        ],
+        "createdAt": "2026-10-15T21:06:27.116Z",
+        "reason": "Claude decided: throwaway decision-round thumbnail sketch, not shipped"
+      }
+    ]
+  }
+}
