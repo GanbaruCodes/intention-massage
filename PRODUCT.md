@@ -39,8 +39,10 @@ The teaching is private and 1:1, and comes from a practising advanced clinical t
 Current offer (source: the teacher's site, October 2026):
 
 **1:1 Advanced CPD Training** is for qualified therapists (Level 3+). It is private, hands-on, and comes with personalised attention.
-- One-day CPD courses cost £250 each: Advanced Shoulder Techniques; Pelvic & Sciatica Release; Migraine & Headache Relief; Low Back Pain Solutions; Knee & Leg Care (including runners).
+- One-day CPD courses cost £250 each: Advanced Shoulder Techniques; Pelvic & Sciatica Release; Migraine & Headache Relief; Low Back Pain Solutions; Knee & Leg Care (including runners); Women’s Health Bodywork; Myofascial Release (1 day).
 - The two-day CPD course costs £400: Deep Tissue Advanced Training.
+- The three-day CPD course costs £600: Myofascial Release (3 days), covering advanced myofascial release and structural bodywork.
+- Women’s Health Bodywork, both Myofascial Release courses and the revised Pelvic & Sciatica description come from the user (2026-10-18).
 
 **Couple Massage Workshop** costs £220 per person and lasts 3 hours. It is private and covers a full-body sequence for the back, shoulders, legs, arms and head. Included: a tea ceremony and guided meditation, the full-body massage sequence (oils provided), a certificate of attendance, and private, supportive guidance.
 
@@ -55,7 +57,7 @@ Undecided or unknown: course dates and schedules, accreditation body for CPD hou
 ## Evidence on Hand
 
 - Credentials: a Level 6 BTEC in Advanced Clinical Massage Therapy; research into the effectiveness of manual therapy for endometriosis; Rolfing Structural Integration training (Year 1 of 3, European Rolfing Association, Munich). Further training covers TMJ pain, oncology massage and palliative care, scar tissue release, pregnancy, and myofascial release.
-- Photos are taken from the teacher's site (use approved by the user) and stored in `assets/img/`. `olga.webp` is a real portrait. The other images look like stock or generated imagery: `teaching.webp`, `acm.webp`, `myofascial.webp`, `masaje.webp`, `coupleMsg.webp`, `reset.webp`, `women-therapy.webp`.
+- Photos are taken from the teacher's site (use approved by the user) and stored in `assets/img/`. `olga-pelvis.webp` (converted from a JPEG supplied by the user; the original was not kept in the project) is the practitioner photo. An earlier portrait, `olga.webp`, was removed on 2026-10-18. The other images look like stock or generated imagery: `teaching.webp`, `acm.webp`, `myofascial.webp`, `masaje.webp`, `coupleMsg.webp`, `reset.webp`, `women-therapy.webp`.
 - Verbatim from the teacher's site (About and Services, read on 2026-10-15). These may be quoted:
   - "soft tissue specialist and chronic pain expert"
   - Clinical expertise: fibromyalgia, oncology-related concerns, long COVID, post-stroke recovery, and trauma-related conditions such as anxiety, panic attacks and grief.
